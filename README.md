@@ -66,4 +66,4 @@ See **HANDOVER.md → Rollback** to undo a change.
 
 ## Restore from scratch
 
-See **HANDOVER.md → Full restore**. In short: fresh WordPress → install the theme ZIP → import `content/wordpress-export.xml` → copy `media/` into `wp-content/uploads/` → apply `content/site-settings.json`.
+See **HANDOVER.md → Full restore** (§8). In short: fresh WordPress → install the theme ZIP → import `content/wordpress-export.xml` → copy `media/` into `wp-content/uploads/` → apply `content/site-settings.json`.

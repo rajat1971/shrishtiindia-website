@@ -106,13 +106,30 @@ Commit with a message such as `content: update hotel logos`.
 ## 10. Known issues and pending items
 See CLAUDE.md §9. The most important: WhatsApp number, founder portrait, the official IATA logo, renaming "Shrishti Holidays" to Aura Holiday at launch, a legal review of the policy pages, an enquiry email test, and Search Console / Business Profile.
 
-## 11. GitHub
-See CHANGELOG.md and the repository settings. Repository details are recorded in the final handover report and in §12 once created.
-
-## 12. Repository record
+## 11. GitHub repository
 | Item | Value |
 |---|---|
-| Repository | _filled in at first push_ |
+| Repository | https://github.com/rajat1971/shrishtiindia-website |
 | Visibility | Private |
 | Primary branch | `main` |
-| Release | v1.0.0 |
+| Baseline commit | `c884d68` (v1.0.0 content); this record added in the next commit |
+| Release tag | `v1.0.0`. It exists in the local repository; the first push from Rajat's PC publishes it (`git push origin v1.0.0`), then create the GitHub release from it (HANDOVER §13). |
+| Local working copy | `F:\GDrive\Claude Backups\shrishtiindia-website` (Google Drive synced folder, chosen by Rajat) |
+| Offline backup | `F:\GDrive\Claude Backups\shrishtiindia-website-v1.0.0.zip` |
+
+Note on Google Drive: the project folder, including `.git`, syncs to Google Drive. That is fine for a single user. Avoid editing the same repo on two PCs at once through Drive; use `git pull`/`git push` instead.
+
+## 12. Opening in VS Code and starting Claude Code
+1. Install Git for Windows and VS Code if not already installed. In VS Code, install the **Claude Code** extension (or use `claude` in a terminal).
+2. VS Code → File → Open Folder → `F:\GDrive\Claude Backups\shrishtiindia-website`. Accept "Trust the authors".
+3. Open the terminal (Ctrl+`) and run `git status` (should say "working tree clean") and `git pull`.
+4. Start Claude Code in that folder. It reads `CLAUDE.md` automatically.
+5. First time only: `git push origin v1.0.0`, then on github.com → Releases → Draft a new release → tag `v1.0.0` → title "v1.0.0 — Approved live site" → Publish.
+
+## 13. Creating the GitHub release
+The handover session could push the `main` branch but its GitHub proxy refused tag pushes and release creation. Two minutes on your PC:
+```powershell
+cd "F:\GDrive\Claude Backups\shrishtiindia-website"
+git push origin v1.0.0
+```
+Then on GitHub: Releases → Draft a new release → choose `v1.0.0` → title *v1.0.0 — Approved live site (25 Nov 2026)* → notes: copy the 1.0.0 section of CHANGELOG.md → Publish release. Optionally attach `shrishtiindia-website-v1.0.0.zip`.
