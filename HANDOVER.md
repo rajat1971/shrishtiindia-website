@@ -112,7 +112,7 @@ See CLAUDE.md §9. The most important: WhatsApp number, founder portrait, the of
 | Repository | https://github.com/rajat1971/shrishtiindia-website |
 | Visibility | Private |
 | Primary branch | `main` |
-| Baseline commit | `c884d68` (v1.0.0 content); this record added in the next commit |
+| Baseline commits | `c884d68` (handover content) and the following docs commits; tag `v1.0.0` marks the final handover commit |
 | Release tag | `v1.0.0`. It exists in the local repository; the first push from Rajat's PC publishes it (`git push origin v1.0.0`), then create the GitHub release from it (HANDOVER §13). |
 | Local working copy | `F:\GDrive\Claude Backups\shrishtiindia-website` (Google Drive synced folder, chosen by Rajat) |
 | Offline backup | `F:\GDrive\Claude Backups\shrishtiindia-website-v1.0.0.zip` |
