@@ -1,0 +1,9 @@
+{
+  "files.eol": "\n",
+  "files.encoding": "utf8",
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnSave": false,
+  "files.exclude": { "dist": true },
+  "search.exclude": { "static-snapshot/wp-includes": true, "media": true, "**/*.min.js": true, "**/land-110m.json": true },
+  "files.associations": { "*.html": "html" }
+}

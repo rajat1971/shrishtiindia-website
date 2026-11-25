@@ -1,0 +1,24 @@
+{
+    "siteurl": "https://shrishtiindia.com",
+    "home": "https://shrishtiindia.com",
+    "blogname": "Shrishti Tours & Travels",
+    "blogdescription": "Luxury holidays, corporate travel and destination events. Mumbai, since 1997.",
+    "permalink_structure": "/%postname%/",
+    "show_on_front": "page",
+    "page_on_front_slug": "home",
+    "wp_page_for_privacy_policy_slug": "privacy-policy",
+    "template": "shrishti-heritage",
+    "stylesheet": "shrishti-heritage",
+    "shrishti_whatsapp": "",
+    "blog_public": "1",
+    "timezone_string": "",
+    "wordpress_version": "7.1.5",
+    "php_version": "8.3.37",
+    "active_plugins": {
+        "4": "hostinger-easy-onboarding/hostinger-easy-onboarding.php",
+        "5": "hostinger-reach/hostinger-reach.php",
+        "6": "hostinger/hostinger.php",
+        "7": "litespeed-cache/litespeed-cache.php",
+        "8": "novamira/novamira.php"
+    }
+}

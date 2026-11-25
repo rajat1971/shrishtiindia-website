@@ -1,0 +1,23 @@
+# Generated
+/dist/
+/*.zip
+!archive/**/*.zip
+
+# Secrets and environment
+.env
+.env.*
+!.env.example
+*.sql
+*.sql.gz
+wp-config.php
+
+# Never commit customer enquiries or user data
+enquiries*.json
+users*.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+node_modules/

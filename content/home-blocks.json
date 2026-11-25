@@ -1,0 +1,3580 @@
+[
+    {
+        "name": "core/group",
+        "attributes": {
+            "tagName": "section",
+            "layout": {
+                "type": "default"
+            },
+            "className": "sh-hero dark wrap",
+            "anchor": "top"
+        },
+        "innerBlocks": [
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "hero-grid"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "hero-copy"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "A Mumbai travel house · since 1997",
+                                    "className": "eyebrow"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/heading",
+                                "attributes": {
+                                    "content": "Every journey,<br>handled <em>end to end.</em>",
+                                    "level": 1
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Luxury holidays, corporate travel, destination weddings and group movements, designed and delivered by one Mumbai team since 1997.",
+                                    "className": "hero-intro"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/buttons",
+                                "attributes": [],
+                                "innerBlocks": [
+                                    {
+                                        "name": "core/button",
+                                        "attributes": {
+                                            "text": "Explore what we do",
+                                            "url": "#holidays",
+                                            "className": "btn-light"
+                                        },
+                                        "innerBlocks": []
+                                    },
+                                    {
+                                        "name": "core/button",
+                                        "attributes": {
+                                            "text": "Plan with us",
+                                            "url": "#contact",
+                                            "className": "btn-line"
+                                        },
+                                        "innerBlocks": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "globe"
+                        },
+                        "innerBlocks": []
+                    }
+                ]
+            },
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "stats"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "1997",
+                                    "className": "stat-num"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Founded in Mumbai",
+                                    "className": "stat-label"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "2006",
+                                    "className": "stat-num"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "IATA accredited · designing luxury holidays",
+                                    "className": "stat-label"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "50–1,250",
+                                    "className": "stat-num"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Guests per MICE group movement",
+                                    "className": "stat-label"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "2010",
+                                    "className": "stat-num"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Destination wedding at The Venetian Macao",
+                                    "className": "stat-label"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "core/group",
+        "attributes": {
+            "tagName": "section",
+            "layout": {
+                "type": "default"
+            },
+            "className": "feature wrap ",
+            "anchor": "holidays"
+        },
+        "innerBlocks": [
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "f-text"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "f-mark"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "01",
+                                    "className": "f-num"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Curated Holidays",
+                                    "className": "eyebrow"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/heading",
+                        "attributes": {
+                            "content": "Holidays designed around you, not a brochure.",
+                            "level": 2
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/paragraph",
+                        "attributes": {
+                            "content": "Since 2006 we have been designing luxury holidays for families, couples and HNI travellers. Every itinerary is built from scratch, and every detail is checked by someone who has done it before.",
+                            "className": "f-body"
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/paragraph",
+                        "attributes": {
+                            "content": "<a href=\"mailto:info@shrishtiindia.com?subject=Holiday%20enquiry\">Plan a holiday</a>",
+                            "className": "more"
+                        },
+                        "innerBlocks": []
+                    }
+                ]
+            },
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "f-side"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "proof"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Since 2006",
+                                    "className": "proof-big"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Designing luxury holidays for close to two decades.",
+                                    "className": "proof-small"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/list",
+                        "attributes": {
+                            "className": "points"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/list-item",
+                                "attributes": {
+                                    "content": "Tailor-made itineraries, worldwide and within India"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/list-item",
+                                "attributes": {
+                                    "content": "HNI and multi-generation family journeys"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/list-item",
+                                "attributes": {
+                                    "content": "Honeymoons, anniversaries and milestone trips"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/list-item",
+                                "attributes": {
+                                    "content": "Private guides, experiences and villa stays"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "core/group",
+        "attributes": {
+            "tagName": "section",
+            "layout": {
+                "type": "default"
+            },
+            "className": "feature wrap alt flip",
+            "anchor": "corporate"
+        },
+        "innerBlocks": [
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "f-text"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "f-mark"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "02",
+                                    "className": "f-num"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Corporate Travel",
+                                    "className": "eyebrow"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/heading",
+                        "attributes": {
+                            "content": "A travel desk that knows your company.",
+                            "level": 2
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/paragraph",
+                        "attributes": {
+                            "content": "Domestic and international ticketing with the discipline corporates need (policy, approvals, reporting), a self-booking tool for flights and hotels, and the responsiveness travellers expect when plans change.",
+                            "className": "f-body"
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/paragraph",
+                        "attributes": {
+                            "content": "<a href=\"mailto:info@shrishtiindia.com?subject=Corporate%20travel%20enquiry\">Talk to our corporate desk</a>",
+                            "className": "more"
+                        },
+                        "innerBlocks": []
+                    }
+                ]
+            },
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "f-side"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "proof"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "IATA",
+                                    "className": "proof-big"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Accredited agent since 2006 · member TAFI, TAAI, IATO.",
+                                    "className": "proof-small"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/list",
+                        "attributes": {
+                            "className": "points"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/list-item",
+                                "attributes": {
+                                    "content": "Domestic and international air ticketing"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/list-item",
+                                "attributes": {
+                                    "content": "Corporate self-booking tool for flights and hotels"
+                                }
+                            },
+                            {
+                                "name": "core/list-item",
+                                "attributes": {
+                                    "content": "Travel policy, approvals and MIS reporting"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/list-item",
+                                "attributes": {
+                                    "content": "Hotels, visas and transfers for your travellers"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/list-item",
+                                "attributes": {
+                                    "content": "A dedicated desk and account manager"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "core/group",
+        "attributes": {
+            "tagName": "section",
+            "layout": {
+                "type": "default"
+            },
+            "className": "feature wrap ",
+            "anchor": "hotels"
+        },
+        "innerBlocks": [
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "f-text"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "f-mark"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "03",
+                                    "className": "f-num"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Hotels &amp; Villas",
+                                    "className": "eyebrow"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/heading",
+                        "attributes": {
+                            "content": "The right room, at the right rate.",
+                            "level": 2
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/paragraph",
+                        "attributes": {
+                            "content": "From city business hotels to island resorts and private villas, we book through preferred partners. That means better rates, upgrades where possible and someone to call when it matters.",
+                            "className": "f-body"
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/paragraph",
+                        "attributes": {
+                            "content": "<a href=\"#partners\">See our hotel partners</a>",
+                            "className": "more"
+                        },
+                        "innerBlocks": []
+                    }
+                ]
+            },
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "f-side"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "proof"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Preferred",
+                                    "className": "proof-big"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Partner relationships with leading hotel groups worldwide.",
+                                    "className": "proof-small"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/list",
+                        "attributes": {
+                            "className": "points"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/list-item",
+                                "attributes": {
+                                    "content": "Hotels, resorts and private villas worldwide"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/list-item",
+                                "attributes": {
+                                    "content": "Preferred-partner rates and privileges"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/list-item",
+                                "attributes": {
+                                    "content": "Group allotments for events and weddings"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/list-item",
+                                "attributes": {
+                                    "content": "Long stays and serviced apartments"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "core/group",
+        "attributes": {
+            "tagName": "div",
+            "layout": {
+                "type": "default"
+            },
+            "className": "dark",
+            "anchor": "curated-affairs"
+        },
+        "innerBlocks": [
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "ca-band wrap"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "ca-title"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "The events division",
+                                    "className": "eyebrow"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/heading",
+                                "attributes": {
+                                    "content": "Curated Affaires <em>by Shrishti</em>",
+                                    "level": 2
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Luxury destination weddings &amp; events",
+                                    "className": "tag"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/paragraph",
+                        "attributes": {
+                            "content": "Two decades of running large movements, from TAFI's international conventions to group movements of up to 1,250 guests, now behind every event we host.",
+                            "className": "ca-intro"
+                        },
+                        "innerBlocks": []
+                    }
+                ]
+            },
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "section",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "feature wrap dark",
+                    "anchor": "corporate-events"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "f-text"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/group",
+                                "attributes": {
+                                    "tagName": "div",
+                                    "layout": {
+                                        "type": "default"
+                                    },
+                                    "className": "f-mark"
+                                },
+                                "innerBlocks": [
+                                    {
+                                        "name": "core/paragraph",
+                                        "attributes": {
+                                            "content": "04",
+                                            "className": "f-num"
+                                        },
+                                        "innerBlocks": []
+                                    },
+                                    {
+                                        "name": "core/paragraph",
+                                        "attributes": {
+                                            "content": "Corporate Events",
+                                            "className": "eyebrow"
+                                        },
+                                        "innerBlocks": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Curated Affaires",
+                                    "className": "badge"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/heading",
+                                "attributes": {
+                                    "content": "Group movements that run like clockwork.",
+                                    "level": 2
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Conferences, incentive trips, dealer meets and offsites. We have moved groups of 50 to 1,250, handling flights, stays, venues, ground logistics and on-site management.",
+                                    "className": "f-body"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "<a href=\"mailto:info@shrishtiindia.com?subject=Corporate%20event%20enquiry\">Plan a corporate event</a>",
+                                    "className": "more"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "f-side"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/group",
+                                "attributes": {
+                                    "tagName": "div",
+                                    "layout": {
+                                        "type": "default"
+                                    },
+                                    "className": "proof"
+                                },
+                                "innerBlocks": [
+                                    {
+                                        "name": "core/paragraph",
+                                        "attributes": {
+                                            "content": "50–1,250",
+                                            "className": "proof-big"
+                                        },
+                                        "innerBlocks": []
+                                    },
+                                    {
+                                        "name": "core/paragraph",
+                                        "attributes": {
+                                            "content": "Guests per group movement, handled over the years.",
+                                            "className": "proof-small"
+                                        },
+                                        "innerBlocks": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "core/list",
+                                "attributes": {
+                                    "className": "points"
+                                },
+                                "innerBlocks": [
+                                    {
+                                        "name": "core/list-item",
+                                        "attributes": {
+                                            "content": "MICE, conferences and incentive travel"
+                                        },
+                                        "innerBlocks": []
+                                    },
+                                    {
+                                        "name": "core/list-item",
+                                        "attributes": {
+                                            "content": "Dealer meets, launches and offsites"
+                                        },
+                                        "innerBlocks": []
+                                    },
+                                    {
+                                        "name": "core/list-item",
+                                        "attributes": {
+                                            "content": "Venue sourcing, production and ground handling"
+                                        },
+                                        "innerBlocks": []
+                                    },
+                                    {
+                                        "name": "core/list-item",
+                                        "attributes": {
+                                            "content": "On-site team from arrival to departure"
+                                        },
+                                        "innerBlocks": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "section",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "feature wrap dark flip",
+                    "anchor": "weddings"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "f-text"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/group",
+                                "attributes": {
+                                    "tagName": "div",
+                                    "layout": {
+                                        "type": "default"
+                                    },
+                                    "className": "f-mark"
+                                },
+                                "innerBlocks": [
+                                    {
+                                        "name": "core/paragraph",
+                                        "attributes": {
+                                            "content": "05",
+                                            "className": "f-num"
+                                        },
+                                        "innerBlocks": []
+                                    },
+                                    {
+                                        "name": "core/paragraph",
+                                        "attributes": {
+                                            "content": "Weddings &amp; Social Events",
+                                            "className": "eyebrow"
+                                        },
+                                        "innerBlocks": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Curated Affaires",
+                                    "className": "badge"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/heading",
+                                "attributes": {
+                                    "content": "Destination weddings, beautifully handled.",
+                                    "level": 2
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "We produced one of the early luxury destination weddings at The Venetian Macao in 2010. Since then: weddings, milestone birthdays and anniversaries in India and abroad.",
+                                    "className": "f-body"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "<a href=\"mailto:info@shrishtiindia.com?subject=Wedding%20%2F%20celebration%20enquiry\">Plan your celebration</a>",
+                                    "className": "more"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "f-side"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/group",
+                                "attributes": {
+                                    "tagName": "div",
+                                    "layout": {
+                                        "type": "default"
+                                    },
+                                    "className": "proof"
+                                },
+                                "innerBlocks": [
+                                    {
+                                        "name": "core/paragraph",
+                                        "attributes": {
+                                            "content": "2010",
+                                            "className": "proof-big"
+                                        },
+                                        "innerBlocks": []
+                                    },
+                                    {
+                                        "name": "core/paragraph",
+                                        "attributes": {
+                                            "content": "Destination wedding at The Venetian Macao.",
+                                            "className": "proof-small"
+                                        },
+                                        "innerBlocks": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "core/list",
+                                "attributes": {
+                                    "className": "points"
+                                },
+                                "innerBlocks": [
+                                    {
+                                        "name": "core/list-item",
+                                        "attributes": {
+                                            "content": "Destination weddings in India and overseas"
+                                        },
+                                        "innerBlocks": []
+                                    },
+                                    {
+                                        "name": "core/list-item",
+                                        "attributes": {
+                                            "content": "Venue, décor and entertainment coordination"
+                                        },
+                                        "innerBlocks": []
+                                    },
+                                    {
+                                        "name": "core/list-item",
+                                        "attributes": {
+                                            "content": "Guest travel, stays and hospitality desk"
+                                        },
+                                        "innerBlocks": []
+                                    },
+                                    {
+                                        "name": "core/list-item",
+                                        "attributes": {
+                                            "content": "Milestone birthdays, anniversaries and private parties"
+                                        },
+                                        "innerBlocks": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "core/group",
+        "attributes": {
+            "tagName": "section",
+            "layout": {
+                "type": "default"
+            },
+            "className": "svc alt wrap",
+            "anchor": "more"
+        },
+        "innerBlocks": [
+            {
+                "name": "core/paragraph",
+                "attributes": {
+                    "content": "Beyond the itinerary",
+                    "className": "eyebrow"
+                },
+                "innerBlocks": []
+            },
+            {
+                "name": "core/heading",
+                "attributes": {
+                    "content": "Cruises, charters &amp; tickets",
+                    "level": 2
+                },
+                "innerBlocks": []
+            },
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "cards3"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "article",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 286,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Cruise-Liner-1024x576.jpg",
+                                    "alt": "Luxury cruise liner at sea",
+                                    "sizeSlug": "large",
+                                    "linkDestination": "none",
+                                    "className": "pic"
+                                }
+                            },
+                            {
+                                "name": "core/heading",
+                                "attributes": {
+                                    "content": "Cruises",
+                                    "level": 3
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Ocean, river and expedition cruises on the world's finest lines, with flights and stays arranged around them.",
+                                    "className": "card-body"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "<a href=\"mailto:info@shrishtiindia.com?subject=Cruise%20enquiry\">Enquire</a>",
+                                    "className": "more"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "article",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 285,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Charter-Plane-1024x576.jpg",
+                                    "alt": "Private charter jet",
+                                    "sizeSlug": "large",
+                                    "linkDestination": "none",
+                                    "className": "pic"
+                                }
+                            },
+                            {
+                                "name": "core/heading",
+                                "attributes": {
+                                    "content": "Air Charter",
+                                    "level": 3
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Private jets and group charters for business, leisure, weddings and events.",
+                                    "className": "card-body"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "<a href=\"mailto:info@shrishtiindia.com?subject=Air%20charter%20enquiry\">Enquire</a>",
+                                    "className": "more"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "article",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 281,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Soccer-888x1024.jpg",
+                                    "alt": "Football stadium on match night",
+                                    "sizeSlug": "large",
+                                    "linkDestination": "none",
+                                    "className": "pic"
+                                }
+                            },
+                            {
+                                "name": "core/heading",
+                                "attributes": {
+                                    "content": "Sports &amp; Event Tickets",
+                                    "level": 3
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Tickets and travel for major sporting fixtures, concerts and marquee events.",
+                                    "className": "card-body"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "<a href=\"mailto:info@shrishtiindia.com?subject=Sports%20and%20event%20tickets%20enquiry\">Enquire</a>",
+                                    "className": "more"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "core/group",
+        "attributes": {
+            "tagName": "section",
+            "layout": {
+                "type": "default"
+            },
+            "className": "svc wrap",
+            "anchor": "essentials"
+        },
+        "innerBlocks": [
+            {
+                "name": "core/paragraph",
+                "attributes": {
+                    "content": "Travel essentials",
+                    "className": "eyebrow"
+                },
+                "innerBlocks": []
+            },
+            {
+                "name": "core/heading",
+                "attributes": {
+                    "content": "Visas, rail &amp; money matters",
+                    "level": 2
+                },
+                "innerBlocks": []
+            },
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "cards3"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "article",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 289,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Passport.jpg",
+                                    "alt": "Passport ready for travel",
+                                    "sizeSlug": "large",
+                                    "linkDestination": "none",
+                                    "className": "pic"
+                                }
+                            },
+                            {
+                                "name": "core/heading",
+                                "attributes": {
+                                    "content": "Visas",
+                                    "level": 3
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Documentation guidance and application support for business and tourist visas.",
+                                    "className": "card-body"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "<a href=\"mailto:info@shrishtiindia.com?subject=Visa%20enquiry\">Enquire</a>",
+                                    "className": "more"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "article",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 282,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Bullet-Train-1024x597.jpg",
+                                    "alt": "High-speed bullet train",
+                                    "sizeSlug": "large",
+                                    "linkDestination": "none",
+                                    "className": "pic"
+                                }
+                            },
+                            {
+                                "name": "core/heading",
+                                "attributes": {
+                                    "content": "Worldwide Railways",
+                                    "level": 3
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "European and international rail passes and tickets, plus chauffeur drives and transfers.",
+                                    "className": "card-body"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "<a href=\"mailto:info@shrishtiindia.com?subject=Rail%20%2F%20chauffeur%20enquiry\">Enquire</a>",
+                                    "className": "more"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "article",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 287,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Forex-1008x1024.jpg",
+                                    "alt": "Foreign currency notes",
+                                    "sizeSlug": "large",
+                                    "linkDestination": "none",
+                                    "className": "pic"
+                                }
+                            },
+                            {
+                                "name": "core/heading",
+                                "attributes": {
+                                    "content": "Passport &amp; Forex",
+                                    "level": 3
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Assistance with passport services and foreign exchange for your trip.",
+                                    "className": "card-body"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "<a href=\"mailto:info@shrishtiindia.com?subject=Passport%20%2F%20forex%20enquiry\">Enquire</a>",
+                                    "className": "more"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "core/group",
+        "attributes": {
+            "tagName": "section",
+            "layout": {
+                "type": "default"
+            },
+            "className": "story wrap",
+            "anchor": "about"
+        },
+        "innerBlocks": [
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "story-copy"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/paragraph",
+                        "attributes": {
+                            "content": "Our story",
+                            "className": "eyebrow"
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/heading",
+                        "attributes": {
+                            "content": "Three decades of travel, built on trust.",
+                            "level": 2
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/paragraph",
+                        "attributes": {
+                            "content": "A team of about twenty in Mumbai handles corporate ticketing, visas, hotels, luxury holidays, MICE and destination weddings for corporates, families and HNI travellers.",
+                            "className": "lead"
+                        },
+                        "innerBlocks": []
+                    }
+                ]
+            },
+            {
+                "name": "core/list",
+                "attributes": {
+                    "className": "timeline",
+                    "ordered": true
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/list-item",
+                        "attributes": {
+                            "content": "<strong>1997</strong>Shrishti Tours &amp; Travels founded in Mumbai, offering corporate ticketing, hotel bookings, visas and forex"
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/list-item",
+                        "attributes": {
+                            "content": "<strong>2006</strong>IATA accreditation; luxury holiday design begins"
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/list-item",
+                        "attributes": {
+                            "content": "<strong>2009</strong>First of many TAFI international conventions, Chiang Mai"
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/list-item",
+                        "attributes": {
+                            "content": "<strong>2010</strong>Luxury destination wedding at The Venetian Macao"
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/list-item",
+                        "attributes": {
+                            "content": "<strong>2015</strong>Co-chaired TAFI's landmark convention in Jerusalem"
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/list-item",
+                        "attributes": {
+                            "content": "<strong>Today</strong>Curated Affaires by Shrishti: weddings and events as a dedicated division"
+                        },
+                        "innerBlocks": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "core/group",
+        "attributes": {
+            "tagName": "section",
+            "layout": {
+                "type": "default"
+            },
+            "className": "family dark wrap"
+        },
+        "innerBlocks": [
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "family-head"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/heading",
+                        "attributes": {
+                            "content": "The Shrishti group",
+                            "level": 2
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/paragraph",
+                        "attributes": {
+                            "content": "One address for everything we do."
+                        },
+                        "innerBlocks": []
+                    }
+                ]
+            },
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "grid3"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "article",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/heading",
+                                "attributes": {
+                                    "content": "Shrishti Tours &amp; Travels",
+                                    "level": 3
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Corporate travel, ticketing, visas and hotels. You are here.",
+                                    "className": "card-body"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "shrishtiindia.com",
+                                    "className": "more"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "article",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/heading",
+                                "attributes": {
+                                    "content": "Shrishti Holidays",
+                                    "level": 3
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Curated holidays, HNI journeys and destination weddings.",
+                                    "className": "card-body"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "<a href=\"#holidays\">Explore holidays</a>",
+                                    "className": "more"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "article",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/heading",
+                                "attributes": {
+                                    "content": "Curated Affaires by Shrishti",
+                                    "level": 3
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Luxury destination weddings, social events and corporate events.",
+                                    "className": "card-body"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "<a href=\"#curated-affairs\">Explore</a>",
+                                    "className": "more"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "core/group",
+        "attributes": {
+            "tagName": "section",
+            "layout": {
+                "type": "default"
+            },
+            "className": "accred wrap",
+            "anchor": "credentials"
+        },
+        "innerBlocks": [
+            {
+                "name": "core/paragraph",
+                "attributes": {
+                    "content": "Credentials",
+                    "className": "eyebrow"
+                },
+                "innerBlocks": []
+            },
+            {
+                "name": "core/heading",
+                "attributes": {
+                    "content": "Accredited and affiliated.",
+                    "level": 2
+                },
+                "innerBlocks": []
+            },
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "logos4 logos5"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/group",
+                                "attributes": {
+                                    "tagName": "div",
+                                    "layout": {
+                                        "type": "default"
+                                    },
+                                    "className": "logo-tile"
+                                },
+                                "innerBlocks": [
+                                    {
+                                        "name": "core/image",
+                                        "attributes": {
+                                            "id": 279,
+                                            "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/download.png",
+                                            "alt": "IATA Accredited Agent",
+                                            "sizeSlug": "full",
+                                            "linkDestination": "none",
+                                            "className": "acc-logo"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "IATA",
+                                    "className": "acc-name"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Accredited agent since 2006",
+                                    "className": "acc-desc"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/group",
+                                "attributes": {
+                                    "tagName": "div",
+                                    "layout": {
+                                        "type": "default"
+                                    },
+                                    "className": "logo-tile"
+                                },
+                                "innerBlocks": [
+                                    {
+                                        "name": "core/image",
+                                        "attributes": {
+                                            "id": 273,
+                                            "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/tafi_logo.png",
+                                            "alt": "TAFI logo",
+                                            "sizeSlug": "full",
+                                            "linkDestination": "none",
+                                            "className": "acc-logo"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "TAFI",
+                                    "className": "acc-name"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Travel Agents Federation of India",
+                                    "className": "acc-desc"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/group",
+                                "attributes": {
+                                    "tagName": "div",
+                                    "layout": {
+                                        "type": "default"
+                                    },
+                                    "className": "logo-tile"
+                                },
+                                "innerBlocks": [
+                                    {
+                                        "name": "core/image",
+                                        "attributes": {
+                                            "id": 272,
+                                            "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/taai-logo-2.png",
+                                            "alt": "TAAI logo",
+                                            "sizeSlug": "full",
+                                            "linkDestination": "none",
+                                            "className": "acc-logo"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "TAAI",
+                                    "className": "acc-name"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Travel Agents Association of India",
+                                    "className": "acc-desc"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/group",
+                                "attributes": {
+                                    "tagName": "div",
+                                    "layout": {
+                                        "type": "default"
+                                    },
+                                    "className": "logo-tile"
+                                },
+                                "innerBlocks": [
+                                    {
+                                        "name": "core/image",
+                                        "attributes": {
+                                            "id": 265,
+                                            "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/iato-logo.png",
+                                            "alt": "IATO logo",
+                                            "sizeSlug": "full",
+                                            "linkDestination": "none",
+                                            "className": "acc-logo"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "IATO",
+                                    "className": "acc-name"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Indian Association of Tour Operators",
+                                    "className": "acc-desc"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/group",
+                                "attributes": {
+                                    "tagName": "div",
+                                    "layout": {
+                                        "type": "default"
+                                    },
+                                    "className": "logo-tile"
+                                },
+                                "innerBlocks": [
+                                    {
+                                        "name": "core/image",
+                                        "attributes": {
+                                            "id": 266,
+                                            "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/IcredibleIndia-EN-Preview.png",
+                                            "alt": "Incredible India logo",
+                                            "sizeSlug": "full",
+                                            "linkDestination": "none",
+                                            "className": "acc-logo"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Incredible India",
+                                    "className": "acc-name"
+                                }
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Ministry of Tourism, Government of India",
+                                    "className": "acc-desc"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "core/group",
+        "attributes": {
+            "tagName": "section",
+            "layout": {
+                "type": "default"
+            },
+            "className": "founder wrap",
+            "anchor": "founder"
+        },
+        "innerBlocks": [
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "founder-top"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/cover",
+                        "attributes": {
+                            "className": "portrait",
+                            "dimRatio": 0,
+                            "minHeight": 240,
+                            "isDark": false
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "RB",
+                                    "className": "portrait-mono"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "founder-copy"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Founder &amp; CEO",
+                                    "className": "eyebrow"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/heading",
+                                "attributes": {
+                                    "content": "Rajat Bagaria",
+                                    "level": 2
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Rajat started Shrishti in 1996–97 and led it to IATA accreditation in 2006. Alongside running the company, he served the Travel Agents Federation of India (TAFI) as an office bearer in several roles from 2007 to 2021. He was an active member of TAFI's convention committee, serving as its Co-Chairman from 2015, and contributed to TAFI's GST, JBGA and other committees."
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "He is also a co-founder of MTF Events, an independent company set up with two fellow agency owners, which organises the Melange travel trade exhibition."
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "founder-cols"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/heading",
+                                "attributes": {
+                                    "content": "Industry leadership · TAFI, 2007–2021",
+                                    "level": 3
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/list",
+                                "attributes": {
+                                    "className": "timeline",
+                                    "ordered": true
+                                },
+                                "innerBlocks": [
+                                    {
+                                        "name": "core/list-item",
+                                        "attributes": {
+                                            "content": "<strong>2007</strong>Joined TAFI as an office bearer"
+                                        }
+                                    },
+                                    {
+                                        "name": "core/list-item",
+                                        "attributes": {
+                                            "content": "<strong>2010–12</strong>Secretary, TAFI Mumbai Chapter"
+                                        }
+                                    },
+                                    {
+                                        "name": "core/list-item",
+                                        "attributes": {
+                                            "content": "<strong>2012–14</strong>Chairman, TAFI Mumbai Chapter"
+                                        }
+                                    },
+                                    {
+                                        "name": "core/list-item",
+                                        "attributes": {
+                                            "content": "<strong>2014–16</strong>Member, TAFI national committee"
+                                        }
+                                    },
+                                    {
+                                        "name": "core/list-item",
+                                        "attributes": {
+                                            "content": "<strong>2015</strong>Co-Chairman, TAFI convention committee"
+                                        }
+                                    },
+                                    {
+                                        "name": "core/list-item",
+                                        "attributes": {
+                                            "content": "<strong>2016–21</strong>Joint Secretary, TAFI"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/heading",
+                                "attributes": {
+                                    "content": "TAFI international conventions · 2009–2018",
+                                    "level": 3
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/list",
+                                "attributes": {
+                                    "className": "timeline",
+                                    "ordered": true
+                                },
+                                "innerBlocks": [
+                                    {
+                                        "name": "core/list-item",
+                                        "attributes": {
+                                            "content": "<strong>2009</strong>Chiang Mai: convention team"
+                                        }
+                                    },
+                                    {
+                                        "name": "core/list-item",
+                                        "attributes": {
+                                            "content": "<strong>2010</strong>Dubai: convention team"
+                                        }
+                                    },
+                                    {
+                                        "name": "core/list-item",
+                                        "attributes": {
+                                            "content": "<strong>2012</strong>Macau: convention support team, 1,200 delegates"
+                                        }
+                                    },
+                                    {
+                                        "name": "core/list-item",
+                                        "attributes": {
+                                            "content": "<strong>2013</strong>Durban: convention committee"
+                                        }
+                                    },
+                                    {
+                                        "name": "core/list-item",
+                                        "attributes": {
+                                            "content": "<strong>2015</strong>Jerusalem: Co-Chairman, TAFI's landmark convention"
+                                        }
+                                    },
+                                    {
+                                        "name": "core/list-item",
+                                        "attributes": {
+                                            "content": "<strong>2017</strong>Dalaman, Turkey: convention committee"
+                                        }
+                                    },
+                                    {
+                                        "name": "core/list-item",
+                                        "attributes": {
+                                            "content": "<strong>2018</strong>Abu Dhabi: Co-Chairman"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "core/group",
+        "attributes": {
+            "tagName": "section",
+            "layout": {
+                "type": "default"
+            },
+            "className": "mtf wrap",
+            "anchor": "mtf"
+        },
+        "innerBlocks": [
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "mtf-top"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "mtf-copy"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Beyond Shrishti · an independent venture",
+                                    "className": "eyebrow"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/heading",
+                                "attributes": {
+                                    "content": "MTF Events: reimagining how the travel trade meets.",
+                                    "level": 2
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "MTF Events is an independent company founded by three Mumbai agency owners, Rajat among them. It began in 2023 as a friendly gathering to launch MTF Premier League Cricket for the travel trade.",
+                                    "className": "lead"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Seeing trade exhibitions grow dull and dated, the group launched Melange in 2024. Its success made it an annual fixture, and Melange Select now takes the format to regional markets, alongside trade-focused formats such as Spark.",
+                                    "className": "lead"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/list",
+                        "attributes": {
+                            "className": "timeline",
+                            "ordered": true
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/list-item",
+                                "attributes": {
+                                    "content": "<strong>2023</strong>MTF Premier League Cricket launched, a friendly gathering for Mumbai's travel trade, played every season since"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/list-item",
+                                "attributes": {
+                                    "content": "<strong>2024</strong>Melange launched at Jio World Convention Centre"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/list-item",
+                                "attributes": {
+                                    "content": "<strong>2025</strong>Melange at NESCO"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/list-item",
+                                "attributes": {
+                                    "content": "<strong>Feb 2026</strong>Melange Select regional shows in Chennai and Kolkata"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/list-item",
+                                "attributes": {
+                                    "content": "<strong>Sep 2026</strong>Melange returns to Jio World Convention Centre"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/list-item",
+                                "attributes": {
+                                    "content": "<strong>Jan 2027</strong>Melange Select in Chandigarh, Ahmedabad, Chennai and Kolkata"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/list-item",
+                                "attributes": {
+                                    "content": "<strong>2027</strong>Fourth edition of Melange announced"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "mtf-stats"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "4",
+                                    "className": "m-num"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Seasons of MTF Premier League Cricket",
+                                    "className": "m-label"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "3",
+                                    "className": "m-num"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Editions of Melange, 2024–2026",
+                                    "className": "m-label"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "100,000",
+                                    "className": "m-num"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Sq ft at Melange 2025 and 2026",
+                                    "className": "m-label"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            }
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "4,000+",
+                                    "className": "m-num"
+                                },
+                                "innerBlocks": []
+                            },
+                            {
+                                "name": "core/paragraph",
+                                "attributes": {
+                                    "content": "Exhibitors and buyers attending Melange 2025",
+                                    "className": "m-label"
+                                },
+                                "innerBlocks": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "core/group",
+        "attributes": {
+            "tagName": "section",
+            "layout": {
+                "type": "default"
+            },
+            "className": "specialists wrap",
+            "anchor": "specialists"
+        },
+        "innerBlocks": [
+            {
+                "name": "core/paragraph",
+                "attributes": {
+                    "content": "Specialist programmes",
+                    "className": "eyebrow"
+                },
+                "innerBlocks": []
+            },
+            {
+                "name": "core/heading",
+                "attributes": {
+                    "content": "Trained by the destinations themselves.",
+                    "level": 2
+                },
+                "innerBlocks": []
+            },
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "badges"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "b-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 297,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Switzerland_Travel_Expert_Rajat_Bagaria_2019-conv-0.jpeg",
+                                    "alt": "Switzerland Travel Expert logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "b-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 299,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/AUSSIE-certificate-conv-0.jpeg",
+                                    "alt": "Aussie Specialist logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "b-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 300,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/brit_logo.jpg",
+                                    "alt": "BritAgent, VisitBritain logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "b-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 298,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/4241617-scotagent.jpg",
+                                    "alt": "ScotsAgent, VisitScotland logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "b-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 295,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/NYC-Certificate_RBagaria-conv-0.jpeg",
+                                    "alt": "NYC Specialist logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "b-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 296,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/SA-Fundi-Certificate302868-conv-0.jpeg",
+                                    "alt": "South Africa Fundi logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "b-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 294,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Matai-Specialist-Stamp-1.png",
+                                    "alt": "Fiji Matai Specialist logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "b-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 292,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/israel-specialist-logo.jpg",
+                                    "alt": "Israel Specialist logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "b-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 301,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/finland_specialist_logo-conv-0.jpeg",
+                                    "alt": "Visit Finland Specialist logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "b-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 345,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/IBI-certified-specialist-badge-1-768x792.jpg",
+                                    "alt": "Inspired by Iceland certified specialist logo",
+                                    "sizeSlug": "medium_large",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "core/group",
+        "attributes": {
+            "tagName": "section",
+            "layout": {
+                "type": "default"
+            },
+            "className": "partners wrap",
+            "anchor": "partners"
+        },
+        "innerBlocks": [
+            {
+                "name": "core/paragraph",
+                "attributes": {
+                    "content": "Our preferred partners",
+                    "className": "eyebrow"
+                },
+                "innerBlocks": []
+            },
+            {
+                "name": "core/heading",
+                "attributes": {
+                    "content": "The names we book with.",
+                    "level": 2
+                },
+                "innerBlocks": []
+            },
+            {
+                "name": "core/heading",
+                "attributes": {
+                    "content": "Luxury &amp; business hotels",
+                    "level": 3
+                },
+                "innerBlocks": []
+            },
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "wordmarks hotels"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 318,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Taj-3-jp.jpg",
+                                    "alt": "Taj logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 316,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/ITC-Hotels.png",
+                                    "alt": "ITC Hotels logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 315,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Four-Seasons.jpg",
+                                    "alt": "Four Seasons logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 309,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/One-and-Only.png",
+                                    "alt": "One&Only logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 317,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Rosewood-2.png",
+                                    "alt": "Rosewood logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 307,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Mandarin.jpg",
+                                    "alt": "Mandarin Oriental logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 313,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/The-Peninsula.jpg",
+                                    "alt": "The Peninsula logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 335,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/ritz-carlton.png",
+                                    "alt": "The Ritz-Carlton logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 312,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/St-Regis.jpg",
+                                    "alt": "St. Regis logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 306,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Luxury-Collection.jpg",
+                                    "alt": "The Luxury Collection logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 314,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/W-Hotels.jpg",
+                                    "alt": "W Hotels logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 334,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Belmond.png",
+                                    "alt": "Belmond logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 304,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Kempinski-Logo.png",
+                                    "alt": "Kempinski logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 293,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Marriott-International.png",
+                                    "alt": "Marriott International logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 305,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/LHW-Logo.jpg",
+                                    "alt": "The Leading Hotels of the World logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 311,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/SLH.png",
+                                    "alt": "Small Luxury Hotels of the World logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 310,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Relais.jpg",
+                                    "alt": "Relais & Chateaux logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 340,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Anantara-Logo.png",
+                                    "alt": "Anantara logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 342,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Accor-Hotels.png",
+                                    "alt": "Accor logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 341,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/IHG-Hotels.png",
+                                    "alt": "IHG Hotels & Resorts logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "core/heading",
+                "attributes": {
+                    "content": "Airlines",
+                    "level": 3
+                },
+                "innerBlocks": []
+            },
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "wordmarks airlines"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 325,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Singapore-Airlines.png",
+                                    "alt": "Singapore Airlines logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 322,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Emirates-Logo.png",
+                                    "alt": "Emirates logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 321,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/British-Airways.png",
+                                    "alt": "British Airways logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 329,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Air-France.png",
+                                    "alt": "Air France logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 330,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/KLM.png",
+                                    "alt": "KLM logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 328,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Virgin-Atlantic.png",
+                                    "alt": "Virgin Atlantic logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 323,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Air-India-Logo.png",
+                                    "alt": "Air India logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 324,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Indigo-Logo.png",
+                                    "alt": "IndiGo logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 331,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Akasa-Logo.png",
+                                    "alt": "Akasa Air logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 327,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Thai-Airways.png",
+                                    "alt": "Thai Airways logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "core/group",
+                        "attributes": {
+                            "tagName": "div",
+                            "layout": {
+                                "type": "default"
+                            },
+                            "className": "w-tile"
+                        },
+                        "innerBlocks": [
+                            {
+                                "name": "core/image",
+                                "attributes": {
+                                    "id": 326,
+                                    "url": "https://shrishtiindia.com/wp-content/uploads/2026/09/Malaysian-Airlines.png",
+                                    "alt": "Malaysia Airlines logo",
+                                    "sizeSlug": "full",
+                                    "linkDestination": "none"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "core/group",
+        "attributes": {
+            "tagName": "section",
+            "layout": {
+                "type": "default"
+            },
+            "className": "contact dark wrap",
+            "anchor": "contact"
+        },
+        "innerBlocks": [
+            {
+                "name": "core/group",
+                "attributes": {
+                    "tagName": "div",
+                    "layout": {
+                        "type": "default"
+                    },
+                    "className": "contact-copy"
+                },
+                "innerBlocks": [
+                    {
+                        "name": "core/paragraph",
+                        "attributes": {
+                            "content": "Contact",
+                            "className": "eyebrow"
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/heading",
+                        "attributes": {
+                            "content": "Let's plan your next journey.",
+                            "level": 2
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/paragraph",
+                        "attributes": {
+                            "content": "Office",
+                            "className": "dt"
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/paragraph",
+                        "attributes": {
+                            "content": "315 Lotus House, New Marine Lines,<br>Mumbai 400020",
+                            "className": "dd"
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/paragraph",
+                        "attributes": {
+                            "content": "Telephone",
+                            "className": "dt"
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/paragraph",
+                        "attributes": {
+                            "content": "<a href=\"tel:+912222053535\">+91-22-22053535</a> / <a href=\"tel:+912222053636\">+91-22-22053636</a>",
+                            "className": "dd"
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/paragraph",
+                        "attributes": {
+                            "content": "Email",
+                            "className": "dt"
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/paragraph",
+                        "attributes": {
+                            "content": "<a href=\"mailto:info@shrishtiindia.com\">info@shrishtiindia.com</a>",
+                            "className": "dd"
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/paragraph",
+                        "attributes": {
+                            "content": "Working hours",
+                            "className": "dt"
+                        },
+                        "innerBlocks": []
+                    },
+                    {
+                        "name": "core/paragraph",
+                        "attributes": {
+                            "content": "Monday to Friday: 10:00 to 18:00<br>Saturday: 10:00 to 16:00<br><em>Beyond office hours: urgent travel matters only.</em>",
+                            "className": "dd"
+                        },
+                        "innerBlocks": []
+                    }
+                ]
+            },
+            {
+                "name": "core/shortcode",
+                "attributes": {
+                    "text": "[shrishti_enquiry]"
+                },
+                "innerBlocks": []
+            }
+        ]
+    }
+]

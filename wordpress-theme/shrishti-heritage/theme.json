@@ -1,0 +1,110 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 3,
+    "settings": {
+        "appearanceTools": false,
+        "useRootPaddingAwareAlignments": false,
+        "layout": {
+            "contentSize": "1248px",
+            "wideSize": "1440px"
+        },
+        "spacing": {
+            "blockGap": null
+        },
+        "color": {
+            "defaultPalette": false,
+            "defaultGradients": false,
+            "palette": [
+                {
+                    "slug": "emerald",
+                    "name": "Emerald",
+                    "color": "#0F3B33"
+                },
+                {
+                    "slug": "emerald-deep",
+                    "name": "Emerald deep",
+                    "color": "#0A2A24"
+                },
+                {
+                    "slug": "cream",
+                    "name": "Cream",
+                    "color": "#F4EFE4"
+                },
+                {
+                    "slug": "paper",
+                    "name": "Paper",
+                    "color": "#FAF6EE"
+                },
+                {
+                    "slug": "sand",
+                    "name": "Sand",
+                    "color": "#EAE2D2"
+                },
+                {
+                    "slug": "ink",
+                    "name": "Ink",
+                    "color": "#1B2320"
+                },
+                {
+                    "slug": "muted",
+                    "name": "Muted",
+                    "color": "#4E5A55"
+                },
+                {
+                    "slug": "brass",
+                    "name": "Brass",
+                    "color": "#7A5C24"
+                },
+                {
+                    "slug": "brass-light",
+                    "name": "Brass light",
+                    "color": "#C7A263"
+                }
+            ]
+        },
+        "typography": {
+            "defaultFontSizes": false,
+            "fontFamilies": [
+                {
+                    "slug": "serif",
+                    "name": "Bodoni Moda",
+                    "fontFamily": "'Bodoni Moda', Didot, Georgia, serif"
+                },
+                {
+                    "slug": "sans",
+                    "name": "Figtree",
+                    "fontFamily": "'Figtree', system-ui, sans-serif"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "color": {
+            "background": "#F4EFE4",
+            "text": "#1B2320"
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--sans)"
+        },
+        "spacing": {
+            "padding": {
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0"
+            }
+        }
+    },
+    "templateParts": [
+        {
+            "name": "header",
+            "area": "header",
+            "title": "Header"
+        },
+        {
+            "name": "footer",
+            "area": "footer",
+            "title": "Footer"
+        }
+    ]
+}

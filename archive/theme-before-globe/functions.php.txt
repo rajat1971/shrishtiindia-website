@@ -1,0 +1,117 @@
+<?php
+/**
+ * Shrishti Heritage theme functions.
+ */
+
+const SHRISHTI_ENQUIRY_TO = 'info@shrishtiindia.com';
+
+add_action( 'after_setup_theme', function () {
+	add_theme_support( 'wp-block-styles' );
+	add_theme_support( 'editor-styles' );
+	add_editor_style( array( 'assets/fonts/fonts.css', 'style.css' ) );
+} );
+
+add_action( 'wp_enqueue_scripts', function () {
+	$ver = wp_get_theme()->get( 'Version' );
+	wp_enqueue_style( 'shrishti-fonts', get_theme_file_uri( 'assets/fonts/fonts.css' ), array(), $ver );
+	wp_enqueue_style( 'shrishti-heritage', get_stylesheet_uri(), array( 'shrishti-fonts' ), $ver . '.' . filemtime( get_stylesheet_directory() . '/style.css' ) );
+} );
+
+add_action( 'wp_head', function () {
+	echo '<meta name="theme-color" content="#0F3B33">' . "\n";
+}, 1 );
+
+/* Mobile call / WhatsApp bar */
+add_action( 'wp_footer', function () {
+	$wa = get_option( 'shrishti_whatsapp', '' );
+	echo '<div class="callbar"><a href="tel:+912222053535">Call us</a>';
+	echo $wa ? '<a href="https://wa.me/' . esc_attr( $wa ) . '" target="_blank" rel="noopener">WhatsApp</a>' : '<a href="mailto:info@shrishtiindia.com">Email us</a>';
+	echo '</div>';
+} );
+
+/* Structured data for Google */
+add_action( 'wp_head', function () {
+	if ( ! is_front_page() ) { return; }
+	$data = array(
+		'@context'     => 'https://schema.org',
+		'@type'        => 'TravelAgency',
+		'name'         => 'Shrishti Tours & Travels Pvt Ltd',
+		'url'          => home_url( '/' ),
+		'foundingDate' => '1997',
+		'founder'      => array( '@type' => 'Person', 'name' => 'Rajat Bagaria' ),
+		'telephone'    => array( '+91-22-22053535', '+91-22-22053636' ),
+		'email'        => 'info@shrishtiindia.com',
+		'address'      => array( '@type' => 'PostalAddress', 'streetAddress' => '315 Lotus House, New Marine Lines', 'addressLocality' => 'Mumbai', 'postalCode' => '400020', 'addressCountry' => 'IN' ),
+		'openingHours' => array( 'Mo-Fr 10:00-18:00', 'Sa 10:00-16:00' ),
+		'memberOf'     => array( 'IATA', 'TAFI', 'TAAI', 'IATO' ),
+	);
+	echo '<script type="application/ld+json">' . wp_json_encode( $data, JSON_UNESCAPED_SLASHES ) . '</script>' . "\n";
+} );
+
+/* Enquiry form: [shrishti_enquiry] */
+add_shortcode( 'shrishti_enquiry', function () {
+	$status = isset( $_GET['enquiry'] ) ? sanitize_key( $_GET['enquiry'] ) : '';
+	$services = array( 'Curated Holidays', 'Corporate Travel', 'Hotels & Villas', 'Corporate Events', 'Weddings & Social Events', 'Cruises / Charters / Tickets', 'Visas / Rail / Passport & Forex', 'Something else' );
+	ob_start();
+	?>
+	<form class="sh-form" method="post" action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>">
+		<?php if ( 'sent' === $status ) : ?><p class="form-ok" role="status">Thank you. Your enquiry has reached our team and we will reply within one working day.</p><?php endif; ?>
+		<?php if ( 'error' === $status ) : ?><p class="form-err" role="alert">Your enquiry could not be sent. Please add your name, phone and a valid email, or write to info@shrishtiindia.com.</p><?php endif; ?>
+		<input type="hidden" name="action" value="shrishti_enquiry">
+		<?php wp_nonce_field( 'shrishti_enquiry', 'sh_nonce' ); ?>
+		<label class="hp" aria-hidden="true">Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+		<label>Name<input type="text" name="name" autocomplete="name" required></label>
+		<label>Company (optional)<input type="text" name="company" autocomplete="organization"></label>
+		<label>Phone<input type="tel" name="phone" autocomplete="tel" required></label>
+		<label>Email<input type="email" name="email" autocomplete="email" required></label>
+		<label class="full">I need help with<select name="service"><?php foreach ( $services as $s ) : ?><option><?php echo esc_html( $s ); ?></option><?php endforeach; ?></select></label>
+		<label class="full">Tell us a little more<textarea name="message"></textarea></label>
+		<button type="submit">Send enquiry</button>
+		<p class="form-note">We reply within one working day. Your details are used only to respond to this enquiry.</p>
+	</form>
+	<?php
+	return ob_get_clean();
+} );
+
+function shrishti_handle_enquiry() {
+	$back = wp_get_referer() ? wp_get_referer() : home_url( '/' );
+	$back = remove_query_arg( 'enquiry', strtok( $back, '#' ) );
+	if ( ! isset( $_POST['sh_nonce'] ) || ! wp_verify_nonce( $_POST['sh_nonce'], 'shrishti_enquiry' ) || ! empty( $_POST['website'] ) ) {
+		wp_safe_redirect( add_query_arg( 'enquiry', 'error', $back ) . '#contact' );
+		exit;
+	}
+	$name    = sanitize_text_field( wp_unslash( $_POST['name'] ?? '' ) );
+	$company = sanitize_text_field( wp_unslash( $_POST['company'] ?? '' ) );
+	$phone   = sanitize_text_field( wp_unslash( $_POST['phone'] ?? '' ) );
+	$email   = sanitize_email( wp_unslash( $_POST['email'] ?? '' ) );
+	$service = sanitize_text_field( wp_unslash( $_POST['service'] ?? '' ) );
+	$message = sanitize_textarea_field( wp_unslash( $_POST['message'] ?? '' ) );
+	if ( ! $name || ! $phone || ! is_email( $email ) ) {
+		wp_safe_redirect( add_query_arg( 'enquiry', 'error', $back ) . '#contact' );
+		exit;
+	}
+	$body  = "New enquiry from shrishtiindia.com\n\n";
+	$body .= "Name: $name\nCompany: $company\nPhone: $phone\nEmail: $email\nService: $service\n\nMessage:\n$message\n";
+	$sent = wp_mail( SHRISHTI_ENQUIRY_TO, "Website enquiry: $service ($name)", $body, array( 'Reply-To: ' . $name . ' <' . $email . '>' ) );
+	// Keep a copy in WordPress in case email delivery fails.
+	$log   = get_option( 'shrishti_enquiries', array() );
+	$log[] = compact( 'name', 'company', 'phone', 'email', 'service', 'message' ) + array( 'date' => current_time( 'mysql' ), 'mailed' => $sent );
+	update_option( 'shrishti_enquiries', array_slice( $log, -500 ), false );
+	wp_safe_redirect( add_query_arg( 'enquiry', 'sent', $back ) . '#contact' );
+	exit;
+}
+add_action( 'admin_post_nopriv_shrishti_enquiry', 'shrishti_handle_enquiry' );
+add_action( 'admin_post_shrishti_enquiry', 'shrishti_handle_enquiry' );
+
+/* Admin page listing stored enquiries (Dashboard > Enquiries) */
+add_action( 'admin_menu', function () {
+	add_menu_page( 'Enquiries', 'Enquiries', 'edit_pages', 'shrishti-enquiries', function () {
+		$log = array_reverse( get_option( 'shrishti_enquiries', array() ) );
+		echo '<div class="wrap"><h1>Website enquiries</h1><table class="widefat striped"><thead><tr><th>Date</th><th>Name</th><th>Company</th><th>Phone</th><th>Email</th><th>Service</th><th>Message</th><th>Emailed</th></tr></thead><tbody>';
+		if ( ! $log ) { echo '<tr><td colspan="8">No enquiries yet.</td></tr>'; }
+		foreach ( $log as $e ) {
+			printf( '<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>', esc_html( $e['date'] ), esc_html( $e['name'] ), esc_html( $e['company'] ), esc_html( $e['phone'] ), esc_html( $e['email'] ), esc_html( $e['service'] ), nl2br( esc_html( $e['message'] ) ), $e['mailed'] ? 'Yes' : 'No' );
+		}
+		echo '</tbody></table></div>';
+	}, 'dashicons-email-alt', 3 );
+} );
