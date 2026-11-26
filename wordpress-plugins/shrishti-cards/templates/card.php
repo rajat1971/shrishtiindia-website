@@ -167,7 +167,7 @@ $n_quick = 1 + ( '' !== $c['mobile_e164'] ? 1 : 0 ) + ( '' !== $c['wa_digits'] ?
 		<?php if ( '' !== $co['hours'] ) : ?>
 		<li>
 			<?php echo shrishti_cards_icon( 'clock', 20, '1.6' ); // phpcs:ignore ?>
-			<div><span class="k">Office hours</span><span class="v"><?php echo esc_html( $co['hours'] ); ?></span></div>
+			<div><span class="k">Office hours</span><span class="v"><?php echo implode( ' · ', array_map( function ( $part ) { return '<span class="nw">' . esc_html( trim( $part ) ) . '</span>'; }, explode( '·', $co['hours'] ) ) ); // phpcs:ignore WordPress.Security.EscapeOutput -- escaped per part. ?></span></div>
 			<span></span>
 		</li>
 		<?php endif; ?>
