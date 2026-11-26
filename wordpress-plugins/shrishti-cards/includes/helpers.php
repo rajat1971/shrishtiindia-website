@@ -48,8 +48,28 @@ function shrishti_cards_fields(): array {
 		'wa_text'     => '',
 		'languages'   => '',
 		'hello'       => '1',
+		'roles'       => '',
+		'backdrop_l'  => '0',
+		'backdrop_r'  => '0',
 		'note'        => '',
 	);
+}
+
+/** Other roles: "Role | Organisation | URL | Email" per line (URL and email optional). */
+function shrishti_cards_parse_roles( string $text ): array {
+	$out = array();
+	foreach ( preg_split( '/\r\n|\r|\n/', $text ) as $line ) {
+		$p = array_map( 'trim', explode( '|', $line ) );
+		if ( count( $p ) >= 2 && '' !== $p[0] && '' !== $p[1] ) {
+			$out[] = array(
+				'role'  => $p[0],
+				'org'   => $p[1],
+				'url'   => isset( $p[2] ) ? esc_url_raw( $p[2], array( 'https', 'http' ) ) : '',
+				'email' => isset( $p[3] ) ? sanitize_email( $p[3] ) : '',
+			);
+		}
+	}
+	return $out;
 }
 
 /** "9820052173" / "098200 52173" / "+91 98200-52173" → "+919820052173". Ten-digit numbers are taken as Indian. */
@@ -154,6 +174,9 @@ function shrishti_cards_get( WP_Post $post ): array {
 	$c['photo_url']  = $photo_id ? (string) wp_get_attachment_image_url( $photo_id, 'medium' ) : '';
 	$c['og_image']   = $photo_id ? (string) wp_get_attachment_image_url( $photo_id, 'large' ) : '';
 	$c['modified']   = $post->post_modified_gmt;
+	$c['role_list']  = shrishti_cards_parse_roles( $c['roles'] );
+	$c['bd_l_url']   = (int) $c['backdrop_l'] ? (string) wp_get_attachment_image_url( (int) $c['backdrop_l'], 'full' ) : '';
+	$c['bd_r_url']   = (int) $c['backdrop_r'] ? (string) wp_get_attachment_image_url( (int) $c['backdrop_r'], 'full' ) : '';
 	return $c;
 }
 

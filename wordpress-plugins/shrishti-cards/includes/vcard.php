@@ -95,18 +95,35 @@ function shrishti_cards_vcard( array $c, array $co ): string {
 		$lines[] = 'TEL;TYPE=WORK,VOICE:' . $phone[1];
 	}
 	if ( '' !== $c['email'] ) {
-		$lines[] = 'EMAIL;TYPE=INTERNET,WORK:' . $c['email'];
+		$lines[] = 'EMAIL;TYPE=INTERNET,WORK,PREF:' . $c['email'];
+	}
+	foreach ( $c['role_list'] as $r ) {
+		if ( '' !== $r['email'] ) {
+			$lines[] = 'EMAIL;TYPE=INTERNET,WORK:' . $r['email'];
+		}
 	}
 	$lines[] = 'ADR;TYPE=WORK:;;' . $e( $co['street'] ) . ';' . $e( $co['city'] ) . ';' . $e( $co['region'] ) . ';' . $e( $co['zip'] ) . ';' . $e( $co['country'] );
 	if ( '' !== $co['website'] ) {
 		$lines[] = 'URL;TYPE=WORK:' . $co['website'];
 	}
 	$lines[] = 'URL:' . $c['url'];
+	foreach ( $c['role_list'] as $r ) {
+		if ( '' !== $r['url'] ) {
+			$lines[] = 'URL:' . $r['url'];
+		}
+	}
 	if ( '' !== $c['linkedin'] ) {
 		$lines[] = 'X-SOCIALPROFILE;TYPE=linkedin:' . $c['linkedin'];
 	}
+	$note = array();
+	foreach ( $c['role_list'] as $r ) {
+		$note[] = $r['role'] . ', ' . $r['org'] . ( '' !== $r['url'] ? ' (' . preg_replace( '#^https?://(www\.)?#', '', untrailingslashit( $r['url'] ) ) . ')' : '' ) . '.';
+	}
 	if ( '' !== $co['vcard_note'] ) {
-		$lines[] = 'NOTE:' . $e( $co['vcard_note'] );
+		$note[] = $co['vcard_note'];
+	}
+	if ( $note ) {
+		$lines[] = 'NOTE:' . $e( implode( ' ', $note ) );
 	}
 	$photo = shrishti_cards_vcard_photo( (int) $c['photo_att'] );
 	if ( '' !== $photo ) {

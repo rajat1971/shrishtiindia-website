@@ -1,7 +1,7 @@
 === Shrishti Smart Cards ===
 Requires at least: 6.5
 Requires PHP: 8.1
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPL-2.0-or-later
 
 Personal online visiting cards for the Shrishti team.
@@ -21,6 +21,14 @@ Cards are unlisted: X-Robots-Tag and meta robots noindex, nofollow, noarchive; n
 
 == Say hello ==
 Optional per card. A visitor fills in first/last name, mobile (required), company and email (optional). WhatsApp opens on the visitor's own phone with the message addressed to the card holder's WhatsApp; the visitor presses Send. Nothing is sent to or stored on the website.
+
+== Other roles and backdrops (1.1.0) ==
+* Other roles (per card, one per line): Role | Organisation | Website | Email. Shown under the designation, as an extra email row, and in the vCard (email, URL, note). Example: Co-Founder | MTF Events | https://mtf.events | rajat@mtf.events
+* Backdrop left/right (per card): optional pale images beside the card on screens 760 px and wider; phones never download them. The images should carry their own fade into the sand ground (#E6DECD).
+
+== Changelog ==
+1.1.0  Other roles, second email, optional backdrops. First used on rb009.
+1.0.0  First release (gg007).
 
 == Privacy ==
 No cookies, no visitor data stored. The only counter is "Saved to contacts" (a number, no IPs).
