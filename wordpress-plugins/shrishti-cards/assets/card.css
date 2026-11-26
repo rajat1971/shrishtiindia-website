@@ -30,6 +30,21 @@ a{color:inherit}
 .who h1{font-family:var(--serif);font-weight:400;font-size:34px;line-height:1.1;margin:0;letter-spacing:-.01em}
 .role{margin:6px 0 0;font-size:15px;color:var(--muted)}
 .org{margin:2px 0 0;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--brass);font-weight:600}
+.also{margin:10px auto 0;padding-top:10px;border-top:1px solid var(--line);max-width:260px;font-size:14px;color:var(--muted)}
+.also+.also{margin-top:2px;padding-top:0;border-top:0}
+.also a{color:var(--emerald);font-weight:600;text-decoration:none;border-bottom:1px solid var(--brass-light)}
+.also a:hover{color:var(--emerald-deep)}
+.also span{color:var(--brass)}
+
+/* Optional faded backdrops beside the card (wide screens only) */
+.bd{display:none}
+@media (min-width:760px){
+  /* The images carry their own fade into the sand ground; this only places them. */
+  .bd{display:block;position:fixed;top:0;bottom:0;width:50%;z-index:0;pointer-events:none;background-repeat:no-repeat;background-size:auto 100%}
+  .bd-l{left:0;background-position:left top}
+  .bd-r{right:0;background-position:right top}
+  .card,.preview-note{position:relative;z-index:1}
+}
 
 /* Actions */
 .save{display:flex;align-items:center;justify-content:center;gap:10px;margin:20px 22px 0;min-height:54px;background:var(--emerald);color:var(--cream);border:0;font:600 16px var(--sans);cursor:pointer;width:calc(100% - 44px);text-decoration:none}

@@ -109,6 +109,13 @@ function shrishti_cards_box_details( WP_Post $post ): void {
 	$text( 'linkedin', 'LinkedIn URL', 'Optional', 'url' );
 	$text( 'wa_text', 'WhatsApp greeting', 'Optional text pre-filled when a visitor taps WhatsApp. Default: "Hello ' . ( $c['first'] ? $c['first'] : 'Name' ) . ', "' );
 	$text( 'languages', 'Languages spoken', 'Optional, e.g. English, Hindi, Marathi' );
+	echo '<tr><th scope="row"><label for="sc-roles">Other roles</label></th><td><textarea id="sc-roles" name="sc[roles]" rows="2" class="large-text">' . esc_textarea( $c['roles'] ) . '</textarea><p class="description">Optional. One per line: Role | Organisation | Website | Email (website and email optional), e.g. Co-Founder | MTF Events | https://mtf.events | name@mtf.events</p></td></tr>';
+	echo '<tr><th scope="row">Backdrop (wide screens)</th><td>';
+	echo '<p style="margin-top:0">Left</p>';
+	shrishti_cards_image_field( 'sc[backdrop_l]', (int) $c['backdrop_l'], 'Choose left image' );
+	echo '<p>Right</p>';
+	shrishti_cards_image_field( 'sc[backdrop_r]', (int) $c['backdrop_r'], 'Choose right image' );
+	echo '<p class="description">Optional faded images beside the card on desktop and tablet; not shown on phones. Use pale, tall images (about 440×1000 px).</p></td></tr>';
 	echo '<tr><th scope="row">Say hello form</th><td><label><input type="checkbox" name="sc[hello]" value="1"' . checked( '1', $c['hello'], false ) . '> Show "Say hello" on the card</label><p class="description">Visitors can enter their name, company, mobile and email; WhatsApp then opens on their phone with the message addressed to this person\'s WhatsApp. Nothing is stored on the website.</p></td></tr>';
 	echo '<tr><th scope="row"><label for="sc-note">Internal note</label></th><td><textarea id="sc-note" name="sc[note]" rows="2" class="large-text">' . esc_textarea( $c['note'] ) . '</textarea><p class="description">Admin only, never shown on the card (e.g. consent date).</p></td></tr>';
 	echo '</tbody></table>';
@@ -218,6 +225,9 @@ add_action(
 		update_post_meta( $post_id, '_sc_linkedin', esc_url_raw( (string) ( $in['linkedin'] ?? '' ), array( 'https', 'http' ) ) );
 		update_post_meta( $post_id, '_sc_photo_id', (string) absint( $in['photo_id'] ?? 0 ) );
 		update_post_meta( $post_id, '_sc_note', sanitize_textarea_field( (string) ( $in['note'] ?? '' ) ) );
+		update_post_meta( $post_id, '_sc_roles', sanitize_textarea_field( (string) ( $in['roles'] ?? '' ) ) );
+		update_post_meta( $post_id, '_sc_backdrop_l', (string) absint( $in['backdrop_l'] ?? 0 ) );
+		update_post_meta( $post_id, '_sc_backdrop_r', (string) absint( $in['backdrop_r'] ?? 0 ) );
 		update_post_meta( $post_id, '_sc_active', empty( $in['active'] ) ? '0' : '1' );
 		update_post_meta( $post_id, '_sc_hello', empty( $in['hello'] ) ? '0' : '1' );
 

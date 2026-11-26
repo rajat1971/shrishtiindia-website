@@ -2,6 +2,10 @@
 
 All notable changes to shrishtiindia.com. Newest first. Format: date, version, what changed, who approved.
 
+## [Unreleased] – branch feature/card-extras (not deployed)
+- shrishti-cards 1.1.0: per-card "Other roles" (role, organisation, link, email; also in the vCard) and optional faded left/right backdrops on wide screens.
+- Card rb009 for Rajat Bagaria (Managing Director; Co-Founder, MTF Events) with backdrops of shrishtiindia.com (left) and mtf.events (right). Tested locally; awaiting Rajat's approval.
+
 ## [1.1.0] – 2026-11-26 — Smart visiting cards (deployed, approved by Rajat Bagaria)
 - New plugin `wordpress-plugins/shrishti-cards/` (per docs/visiting-cards/BUILD_SPEC.md): cards at `/<code>`, vCard at `/<code>.vcf`, QR at `/<code>.png`; noindex; 404/410 company card; admin editor, list columns, QR PNG/SVG downloads, email signature; Settings → Smart Cards.
 - Optional "Say hello" panel (requested by Rajat): the visitor's details open as a ready WhatsApp message to the card holder; nothing is stored on the site.

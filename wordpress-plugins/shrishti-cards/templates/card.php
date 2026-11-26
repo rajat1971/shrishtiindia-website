@@ -15,7 +15,8 @@ $groups  = shrishti_cards_group_links( $co );
 $title   = $c['name'] . ( '' !== $c['designation'] ? ' · ' . $c['designation'] : '' );
 $role    = trim( $c['designation'] . ( '' !== $c['department'] ? ' · ' . $c['department'] : '' ), ' ·' );
 $wa_link = 'https://wa.me/' . $c['wa_digits'] . '?text=' . rawurlencode( $c['wa_greeting'] );
-$n_quick = 1 + ( '' !== $c['mobile_e164'] ? 1 : 0 ) + ( '' !== $c['wa_digits'] ? 1 : 0 ) + ( '' !== $c['email'] ? 1 : 0 );
+$role_emails = array_values( array_filter( $c['role_list'], function ( $r ) { return '' !== $r['email']; } ) );
+$n_quick =1 + ( '' !== $c['mobile_e164'] ? 1 : 0 ) + ( '' !== $c['wa_digits'] ? 1 : 0 ) + ( '' !== $c['email'] ? 1 : 0 );
 ?><!doctype html>
 <html lang="en">
 <head>
@@ -40,9 +41,24 @@ $n_quick = 1 + ( '' !== $c['mobile_e164'] ? 1 : 0 ) + ( '' !== $c['wa_digits'] ?
 <?php foreach ( $font_urls as $font_url ) : ?>
 <link rel="preload" href="<?php echo esc_url( $font_url ); ?>" as="font" type="font/woff2" crossorigin>
 <?php endforeach; ?>
-<style><?php echo $font_css . file_get_contents( SHRISHTI_CARDS_DIR . 'assets/card.css' ); // phpcs:ignore ?></style>
+<style><?php echo $font_css . file_get_contents( SHRISHTI_CARDS_DIR . 'assets/card.css' ); // phpcs:ignore ?>
+<?php
+// Optional faded backdrops beside the card; only wide screens download them.
+$bd_css = '';
+if ( $c['bd_l_url'] ) {
+	$bd_css .= '.bd-l{background-image:url("' . esc_url( $c['bd_l_url'] ) . '")}';
+}
+if ( $c['bd_r_url'] ) {
+	$bd_css .= '.bd-r{background-image:url("' . esc_url( $c['bd_r_url'] ) . '")}';
+}
+if ( $bd_css ) {
+	echo '@media (min-width:760px){' . $bd_css . '}'; // phpcs:ignore WordPress.Security.EscapeOutput -- URLs escaped above.
+}
+?></style>
 </head>
 <body>
+<?php if ( $c['bd_l_url'] ) : ?><div class="bd bd-l" aria-hidden="true"></div><?php endif; ?>
+<?php if ( $c['bd_r_url'] ) : ?><div class="bd bd-r" aria-hidden="true"></div><?php endif; ?>
 <?php if ( ! empty( $preview ) ) : ?>
 <p class="preview-note">Preview: this card is not live. Visitors see the "no longer active" page.</p>
 <?php endif; ?>
@@ -64,6 +80,15 @@ $n_quick = 1 + ( '' !== $c['mobile_e164'] ? 1 : 0 ) + ( '' !== $c['wa_digits'] ?
 		<h1><?php echo esc_html( $c['name'] ); ?></h1>
 		<?php if ( '' !== $role ) : ?><p class="role"><?php echo esc_html( $role ); ?></p><?php endif; ?>
 		<p class="org"><?php echo esc_html( $co['brand_name'] ); ?></p>
+		<?php foreach ( $c['role_list'] as $r ) : ?>
+			<p class="also"><?php echo esc_html( $r['role'] ); ?> ·
+				<?php if ( $r['url'] ) : ?>
+					<a href="<?php echo esc_url( $r['url'] ); ?>" target="_blank" rel="noopener"><?php echo esc_html( $r['org'] ); ?> <span aria-hidden="true">↗</span></a>
+				<?php else : ?>
+					<?php echo esc_html( $r['org'] ); ?>
+				<?php endif; ?>
+			</p>
+		<?php endforeach; ?>
 	</section>
 
 	<a class="save" href="<?php echo esc_url( $c['vcf_url'] ); ?>">
@@ -144,10 +169,17 @@ $n_quick = 1 + ( '' !== $c['mobile_e164'] ? 1 : 0 ) + ( '' !== $c['wa_digits'] ?
 		<?php if ( '' !== $c['email'] ) : ?>
 		<li>
 			<?php echo shrishti_cards_icon( 'mail', 20, '1.6' ); // phpcs:ignore ?>
-			<div><span class="k">Email</span><span class="v"><a href="<?php echo esc_url( 'mailto:' . $c['email'] ); ?>"><?php echo esc_html( $c['email'] ); ?></a></span></div>
+			<div><span class="k"><?php echo esc_html( $role_emails ? 'Email · ' . strtok( $co['brand_name'], ' ' ) : 'Email' ); ?></span><span class="v"><a href="<?php echo esc_url( 'mailto:' . $c['email'] ); ?>"><?php echo esc_html( $c['email'] ); ?></a></span></div>
 			<button class="copy" type="button" data-copy="<?php echo esc_attr( $c['email'] ); ?>">Copy<span class="sr"> email address</span></button>
 		</li>
 		<?php endif; ?>
+		<?php foreach ( $role_emails as $r ) : ?>
+		<li>
+			<?php echo shrishti_cards_icon( 'mail', 20, '1.6' ); // phpcs:ignore ?>
+			<div><span class="k"><?php echo esc_html( 'Email · ' . $r['org'] ); ?></span><span class="v"><a href="<?php echo esc_url( 'mailto:' . $r['email'] ); ?>"><?php echo esc_html( $r['email'] ); ?></a></span></div>
+			<button class="copy" type="button" data-copy="<?php echo esc_attr( $r['email'] ); ?>">Copy<span class="sr"> <?php echo esc_html( $r['org'] ); ?> email address</span></button>
+		</li>
+		<?php endforeach; ?>
 		<?php if ( '' !== $c['linkedin'] ) : ?>
 		<li>
 			<?php echo shrishti_cards_icon( 'in', 20, '1.6' ); // phpcs:ignore ?>

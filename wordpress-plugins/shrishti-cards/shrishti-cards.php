@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Shrishti Smart Cards
  * Description:       Personal online visiting cards for the Shrishti team at shrishtiindia.com/&lt;code&gt;, with Save-to-contacts (vCard) and QR codes. Cards are unlisted and marked noindex.
- * Version:           1.0.0
+ * Version:           1.1.0
  * Requires at least: 6.5
  * Requires PHP:      8.1
  * Author:            Shrishti Tours & Travels
@@ -14,7 +14,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'SHRISHTI_CARDS_VERSION', '1.0.0' );
+define( 'SHRISHTI_CARDS_VERSION', '1.1.0' );
 define( 'SHRISHTI_CARDS_FILE', __FILE__ );
 define( 'SHRISHTI_CARDS_DIR', plugin_dir_path( __FILE__ ) );
 define( 'SHRISHTI_CARDS_URL', plugin_dir_url( __FILE__ ) );
