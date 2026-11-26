@@ -2,6 +2,9 @@
 
 All notable changes to shrishtiindia.com. Newest first. Format: date, version, what changed, who approved.
 
+## Content – 2026-11-26 (approved by Rajat Bagaria)
+- Card gg007 (Geeta Goyal): backdrops added, shrishtiindia.com on the left and aura.holiday on the right (Media Library: "Card backdrop: …"). Settings only, no code change.
+
 ## [1.2.0] – 2026-11-26 — Card extras and rb009 (deployed, approved by Rajat Bagaria)
 - shrishti-cards plugin 1.1.0: per-card "Other roles" (role, organisation, link, email; also in the vCard) and optional faded left/right backdrops on wide screens.
 - Card rb009 for Rajat Bagaria (Managing Director; Co-Founder, MTF Events) with backdrops of shrishtiindia.com (left) and mtf.events (right).
