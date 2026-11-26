@@ -27,7 +27,8 @@ A brochure-style "visiting card" used in Shrishti's advertising. Audiences: corp
   - `assets/fonts/`: self-hosted Bodoni Moda + Figtree (no Google Fonts calls)
   - `assets/js/globe.js` + `d3-geo` / `d3-array` + `assets/data/land-110m.json`: rotating dotted globe in the hero (desktop only)
 - **Content lives in the WordPress database**, not in theme files. The home page (ID 6) is one page of native Gutenberg blocks. `content/home.html` is a copy of it, and `content/home-blocks.json` is the block structure Claude used to generate it.
-- Active plugins: LiteSpeed Cache, Hostinger Tools / Easy Onboarding / Reach, **Novamira** (lets Claude edit the live site). Inactive, unused: Elementor, Gutenverse ×3, Starter Templates, WordPress Importer, License For Envato.
+- **Plugin `shrishti-cards`** (`wordpress-plugins/shrishti-cards/`, v1.0.0, live since 26 Nov 2026): smart visiting cards at `/<code>` (2 letters + 3 digits), `.vcf`, `.png`. Spec: `docs/visiting-cards/BUILD_SPEC.md`. Card data lives in WordPress (Smart Cards menu), not in the repo. Deploy: zip the folder and upload via Plugins → Add New, or via Novamira.
+- Active plugins: Shrishti Smart Cards, LiteSpeed Cache, Hostinger Tools / Easy Onboarding / Reach, **Novamira** (lets Claude edit the live site). Inactive, unused: Elementor, Gutenverse ×3, Starter Templates, WordPress Importer, License For Envato.
 - Hostinger Reach injects `https://cdn-reach.hostinger.com/js/embed.js` on the front end.
 
 ## 4. Page structure (home page, top to bottom)

@@ -1,0 +1,11 @@
+/* Shrishti Smart Cards admin */
+.sc-image{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.sc-image-preview{width:72px;height:72px;object-fit:cover;border:1px solid #dcdcde;border-radius:50%}
+.sc-qr{width:150px;margin:0 0 8px}
+.sc-qr svg{display:block;width:100%;height:auto}
+.sc-buttons{display:flex;flex-wrap:wrap;gap:6px}
+.sc-live{color:#1E7A4C;font-weight:600}
+.sc-off{color:#A1422A;font-weight:600}
+.sc-sig-preview{padding:14px;border:1px solid #dcdcde;background:#fff;margin-bottom:8px}
+.sc-sig-html{font-size:11px}
+.column-sc_code{width:7em}.column-sc_active,.column-sc_saves{width:5em}

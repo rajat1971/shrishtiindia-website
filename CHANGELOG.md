@@ -2,6 +2,12 @@
 
 All notable changes to shrishtiindia.com. Newest first. Format: date, version, what changed, who approved.
 
+## [1.1.0] – 2026-11-26 — Smart visiting cards (deployed, approved by Rajat Bagaria)
+- New plugin `wordpress-plugins/shrishti-cards/` (per docs/visiting-cards/BUILD_SPEC.md): cards at `/<code>`, vCard at `/<code>.vcf`, QR at `/<code>.png`; noindex; 404/410 company card; admin editor, list columns, QR PNG/SVG downloads, email signature; Settings → Smart Cards.
+- Optional "Say hello" panel (requested by Rajat): the visitor's details open as a ready WhatsApp message to the card holder; nothing is stored on the site.
+- First card live: gg007, Geeta Goyal, Director (photo and details with her consent).
+- Tested locally in WordPress Playground (PHP 8.3) and on the live site. Rollback point: tag `pre-smart-cards` (deactivate the plugin to roll back; no theme or page changes).
+
 ## [1.0.0] – 2026-11-25 — Handover baseline
 Approved live site captured into this repository; no change to the live website.
 - Repository created with theme, content exports, media, static snapshot, reference screenshots and documentation (README, CLAUDE, AGENTS, HANDOVER, maintenance guide).
